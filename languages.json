@@ -253,12 +253,6 @@
                 "cfc"
             ]
         },
-        "Coq":{
-            "base":"func",
-            "extensions":[
-                "v"
-            ]
-        },
         "Cpp":{
             "name":"C++",
             "base":"c",
