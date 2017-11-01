@@ -17,6 +17,15 @@
                 "pad"
             ]
         },
+        "Adice":{
+            "name":"Adice Use",
+            "line_comment":[
+                "*"
+            ],
+            "extensions":[
+                "use"
+            ]
+        },
         "Alex":{
             "extensions":[
                 "x"
