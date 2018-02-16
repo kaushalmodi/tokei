@@ -97,47 +97,6 @@
                 "ahk"
             ]
         },
-        "Sh":{
-            "name":"Shell",
-            "base":"hash",
-            "quotes":[
-                ["\\\"", "\\\""],
-                ["'", "'"]
-            ],
-            "env":[
-                "sh"
-            ],
-            "extensions":[
-                "sh"
-            ]
-        },
-        "Bash":{
-            "name":"BASH",
-            "base":"hash",
-            "quotes":[
-                ["\\\"", "\\\""],
-                ["'", "'"]
-            ],
-            "env":[
-                "bash"
-            ],
-            "extensions":[
-                "bash"
-            ]
-        },
-        "Fish":{
-            "base":"hash",
-            "quotes":[
-                ["\\\"", "\\\""],
-                ["'", "'"]
-            ],
-            "env":[
-                "fish"
-            ],
-            "extensions":[
-                "fish"
-            ]
-        },
         "Batch":{
             "line_comment":[
                 "REM",
@@ -313,16 +272,6 @@
             "base":"c",
             "extensions":[
                 "cs"
-            ]
-        },
-        "CShell":{
-            "name":"C Shell",
-            "base":"hash",
-            "env":[
-                "csh"
-            ],
-            "extensions":[
-                "csh"
             ]
         },
         "Css":{
@@ -1124,6 +1073,76 @@
                 "sconscript"
             ]
         },
+        "ShellBash":{
+            "name":"Shell (bash)",
+            "base":"hash",
+            "quotes":[
+                ["\\\"", "\\\""],
+                ["'", "'"]
+            ],
+            "env":[
+                "bash"
+            ],
+            "extensions":[
+                "sh",
+                "bash"
+            ]
+        },
+        "ShellC":{
+            "name":"Shell (csh/tcsh)",
+            "base":"hash",
+            "env":[
+                "csh"
+            ],
+            "extensions":[
+                "csh"
+            ]
+        },
+        "ShellFish":{
+            "name":"Shell (fish)",
+            "base":"hash",
+            "quotes":[
+                ["\\\"", "\\\""],
+                ["'", "'"]
+            ],
+            "env":[
+                "fish"
+            ],
+            "extensions":[
+                "fish"
+            ]
+        },
+        "ShellSh":{
+            "name":"Shell (sh)",
+            "base":"hash",
+            "quotes":[
+                ["\\\"", "\\\""],
+                ["'", "'"]
+            ],
+            "env":[
+                "sh"
+            ]
+        },
+        "ShellTcsh":{
+            "name":"Shell (tcsh)",
+            "base":"hash",
+            "env":[
+                "tcsh"
+            ],
+            "extensions":[
+                "tcsh"
+            ]
+        },
+        "ShellZsh":{
+            "name":"Shell (zsh)",
+            "quotes":[
+                ["\\\"", "\\\""],
+                ["'", "'"]
+            ],
+            "extensions":[
+                "zsh"
+            ]
+        },
         "Sml":{
             "name":"Standard ML (SML)",
             "base":"func",
@@ -1374,16 +1393,6 @@
             "extensions":[
                 "yaml",
                 "yml"
-            ]
-        },
-        "Zsh":{
-            "base":"hash",
-            "quotes":[
-                ["\\\"", "\\\""],
-                ["'", "'"]
-            ],
-            "extensions":[
-                "zsh"
             ]
         }
     }
