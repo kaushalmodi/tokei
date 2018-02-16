@@ -804,6 +804,14 @@
                 "markdown"
             ]
         },
+        "Matlab":{
+            "line_comment":[
+                "%"
+            ],
+            "extensions":[
+                "m"
+            ]
+        },
         "ModuleDef": {
             "name": "Module-Definition",
             "extensions": ["def"],
@@ -851,13 +859,6 @@
             ],
             "extensions":[
                 "nix"
-            ]
-        },
-        "ObjectiveC":{
-            "name":"Objective C",
-            "base":"c",
-            "extensions":[
-                "m"
             ]
         },
         "ObjectiveCpp":{
